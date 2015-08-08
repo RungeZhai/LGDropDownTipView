@@ -3,7 +3,7 @@ A drop-down tip view like Weibo.
 
 ### Demo
 
-<image src="https://cloud.githubusercontent.com/assets/3366713/9149747/59544d96-3dea-11e5-9a00-f98723c20603.gif" width=250>
+<image src="https://cloud.githubusercontent.com/assets/3366713/9149747/59544d96-3dea-11e5-9a00-f98723c20603.gif" width=250 />
 
 ### Usage
 
