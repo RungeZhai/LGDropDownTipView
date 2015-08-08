@@ -1,5 +1,5 @@
 # LGDropDownTipView
-A drop-down tip view like Weibo
+A drop-down tip view like Weibo.
 
 ### Demo
 
