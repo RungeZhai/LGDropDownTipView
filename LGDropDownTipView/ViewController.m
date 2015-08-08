@@ -10,6 +10,7 @@
 #import "LGDropDownTipView.h"
 
 @interface ViewController ()
+
 @property (weak, nonatomic) IBOutlet UIView *referenceView0;
 @property (weak, nonatomic) IBOutlet UIView *referenceView1;
 @property (weak, nonatomic) IBOutlet UIView *referenceView2;
