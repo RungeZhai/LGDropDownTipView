@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19B1A4121B74C2CD0052CE2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B1A4111B74C2CD0052CE2A /* main.m */; };
+		19B1A4151B74C2CD0052CE2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B1A4141B74C2CD0052CE2A /* AppDelegate.m */; };
+		19B1A4181B74C2CD0052CE2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B1A4171B74C2CD0052CE2A /* ViewController.m */; };
+		19B1A41B1B74C2CD0052CE2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B1A4191B74C2CD0052CE2A /* Main.storyboard */; };
+		19B1A41D1B74C2CD0052CE2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B1A41C1B74C2CD0052CE2A /* Images.xcassets */; };
+		19B1A4201B74C2CD0052CE2A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B1A41E1B74C2CD0052CE2A /* LaunchScreen.xib */; };
+		19B1A42C1B74C2CD0052CE2A /* LGDropDownTipViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B1A42B1B74C2CD0052CE2A /* LGDropDownTipViewTests.m */; };
+		19B1A4371B74C3920052CE2A /* LGDropDownTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B1A4361B74C3920052CE2A /* LGDropDownTipView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19B1A4261B74C2CD0052CE2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B1A4041B74C2CD0052CE2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B1A40B1B74C2CD0052CE2A;
+			remoteInfo = LGDropDownTipView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19B1A40C1B74C2CD0052CE2A /* LGDropDownTipView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGDropDownTipView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B1A4101B74C2CD0052CE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B1A4111B74C2CD0052CE2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19B1A4131B74C2CD0052CE2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19B1A4141B74C2CD0052CE2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19B1A4161B74C2CD0052CE2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19B1A4171B74C2CD0052CE2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19B1A41A1B74C2CD0052CE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19B1A41C1B74C2CD0052CE2A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19B1A41F1B74C2CD0052CE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		19B1A4251B74C2CD0052CE2A /* LGDropDownTipViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGDropDownTipViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B1A42A1B74C2CD0052CE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B1A42B1B74C2CD0052CE2A /* LGDropDownTipViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGDropDownTipViewTests.m; sourceTree = "<group>"; };
+		19B1A4361B74C3920052CE2A /* LGDropDownTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGDropDownTipView.m; sourceTree = "<group>"; };
+		19B1A4381B74C39F0052CE2A /* LGDropDownTipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGDropDownTipView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B1A4091B74C2CD0052CE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B1A4221B74C2CD0052CE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19B1A4031B74C2CD0052CE2A = {
+			isa = PBXGroup;
+			children = (
+				19B1A40E1B74C2CD0052CE2A /* LGDropDownTipView */,
+				19B1A4281B74C2CD0052CE2A /* LGDropDownTipViewTests */,
+				19B1A40D1B74C2CD0052CE2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19B1A40D1B74C2CD0052CE2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B1A40C1B74C2CD0052CE2A /* LGDropDownTipView.app */,
+				19B1A4251B74C2CD0052CE2A /* LGDropDownTipViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19B1A40E1B74C2CD0052CE2A /* LGDropDownTipView */ = {
+			isa = PBXGroup;
+			children = (
+				19B1A4351B74C34A0052CE2A /* LGDropDownTipView */,
+				19B1A4131B74C2CD0052CE2A /* AppDelegate.h */,
+				19B1A4141B74C2CD0052CE2A /* AppDelegate.m */,
+				19B1A4161B74C2CD0052CE2A /* ViewController.h */,
+				19B1A4171B74C2CD0052CE2A /* ViewController.m */,
+				19B1A4191B74C2CD0052CE2A /* Main.storyboard */,
+				19B1A41C1B74C2CD0052CE2A /* Images.xcassets */,
+				19B1A41E1B74C2CD0052CE2A /* LaunchScreen.xib */,
+				19B1A40F1B74C2CD0052CE2A /* Supporting Files */,
+			);
+			path = LGDropDownTipView;
+			sourceTree = "<group>";
+		};
+		19B1A40F1B74C2CD0052CE2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19B1A4101B74C2CD0052CE2A /* Info.plist */,
+				19B1A4111B74C2CD0052CE2A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19B1A4281B74C2CD0052CE2A /* LGDropDownTipViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				19B1A42B1B74C2CD0052CE2A /* LGDropDownTipViewTests.m */,
+				19B1A4291B74C2CD0052CE2A /* Supporting Files */,
+			);
+			path = LGDropDownTipViewTests;
+			sourceTree = "<group>";
+		};
+		19B1A4291B74C2CD0052CE2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19B1A42A1B74C2CD0052CE2A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19B1A4351B74C34A0052CE2A /* LGDropDownTipView */ = {
+			isa = PBXGroup;
+			children = (
+				19B1A4381B74C39F0052CE2A /* LGDropDownTipView.h */,
+				19B1A4361B74C3920052CE2A /* LGDropDownTipView.m */,
+			);
+			path = LGDropDownTipView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19B1A40B1B74C2CD0052CE2A /* LGDropDownTipView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B1A42F1B74C2CD0052CE2A /* Build configuration list for PBXNativeTarget "LGDropDownTipView" */;
+			buildPhases = (
+				19B1A4081B74C2CD0052CE2A /* Sources */,
+				19B1A4091B74C2CD0052CE2A /* Frameworks */,
+				19B1A40A1B74C2CD0052CE2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGDropDownTipView;
+			productName = LGDropDownTipView;
+			productReference = 19B1A40C1B74C2CD0052CE2A /* LGDropDownTipView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19B1A4241B74C2CD0052CE2A /* LGDropDownTipViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B1A4321B74C2CD0052CE2A /* Build configuration list for PBXNativeTarget "LGDropDownTipViewTests" */;
+			buildPhases = (
+				19B1A4211B74C2CD0052CE2A /* Sources */,
+				19B1A4221B74C2CD0052CE2A /* Frameworks */,
+				19B1A4231B74C2CD0052CE2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B1A4271B74C2CD0052CE2A /* PBXTargetDependency */,
+			);
+			name = LGDropDownTipViewTests;
+			productName = LGDropDownTipViewTests;
+			productReference = 19B1A4251B74C2CD0052CE2A /* LGDropDownTipViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19B1A4041B74C2CD0052CE2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ZiXuWuYou;
+				TargetAttributes = {
+					19B1A40B1B74C2CD0052CE2A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					19B1A4241B74C2CD0052CE2A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 19B1A40B1B74C2CD0052CE2A;
+					};
+				};
+			};
+			buildConfigurationList = 19B1A4071B74C2CD0052CE2A /* Build configuration list for PBXProject "LGDropDownTipView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19B1A4031B74C2CD0052CE2A;
+			productRefGroup = 19B1A40D1B74C2CD0052CE2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B1A40B1B74C2CD0052CE2A /* LGDropDownTipView */,
+				19B1A4241B74C2CD0052CE2A /* LGDropDownTipViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19B1A40A1B74C2CD0052CE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B1A41B1B74C2CD0052CE2A /* Main.storyboard in Resources */,
+				19B1A4201B74C2CD0052CE2A /* LaunchScreen.xib in Resources */,
+				19B1A41D1B74C2CD0052CE2A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B1A4231B74C2CD0052CE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B1A4081B74C2CD0052CE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B1A4371B74C3920052CE2A /* LGDropDownTipView.m in Sources */,
+				19B1A4181B74C2CD0052CE2A /* ViewController.m in Sources */,
+				19B1A4151B74C2CD0052CE2A /* AppDelegate.m in Sources */,
+				19B1A4121B74C2CD0052CE2A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B1A4211B74C2CD0052CE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B1A42C1B74C2CD0052CE2A /* LGDropDownTipViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19B1A4271B74C2CD0052CE2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B1A40B1B74C2CD0052CE2A /* LGDropDownTipView */;
+			targetProxy = 19B1A4261B74C2CD0052CE2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19B1A4191B74C2CD0052CE2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B1A41A1B74C2CD0052CE2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19B1A41E1B74C2CD0052CE2A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B1A41F1B74C2CD0052CE2A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19B1A42D1B74C2CD0052CE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19B1A42E1B74C2CD0052CE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19B1A4301B74C2CD0052CE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGDropDownTipView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19B1A4311B74C2CD0052CE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGDropDownTipView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19B1A4331B74C2CD0052CE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LGDropDownTipViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGDropDownTipView.app/LGDropDownTipView";
+			};
+			name = Debug;
+		};
+		19B1A4341B74C2CD0052CE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LGDropDownTipViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGDropDownTipView.app/LGDropDownTipView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19B1A4071B74C2CD0052CE2A /* Build configuration list for PBXProject "LGDropDownTipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B1A42D1B74C2CD0052CE2A /* Debug */,
+				19B1A42E1B74C2CD0052CE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B1A42F1B74C2CD0052CE2A /* Build configuration list for PBXNativeTarget "LGDropDownTipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B1A4301B74C2CD0052CE2A /* Debug */,
+				19B1A4311B74C2CD0052CE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B1A4321B74C2CD0052CE2A /* Build configuration list for PBXNativeTarget "LGDropDownTipViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B1A4331B74C2CD0052CE2A /* Debug */,
+				19B1A4341B74C2CD0052CE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19B1A4041B74C2CD0052CE2A /* Project object */;
+}
