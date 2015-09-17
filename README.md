@@ -17,4 +17,4 @@ Say you want to show "Random Message" from navigation bar:
 [LGDropDownTipView showMessage:@"Random Message" referenceView:self.navigationController.navigationBar];
 ```
 
-If the message you want to show is the same with the message being shown, the request will be ignored. Otherwise, the showing request will be queued and shown one after another. You can show messages to multiple views at the same time.
+If the message you want to show is the same with the message being shown, the request will be ignored. Otherwise, the showing request will be queued and the message will be shown after the former one disappears. You can show messages to multiple views at the same time.
