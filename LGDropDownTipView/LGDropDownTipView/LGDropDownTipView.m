@@ -7,42 +7,39 @@
 //
 
 #import "LGDropDownTipView.h"
+#import "NSPointerArray+AbstractionHelpers.h"
 
 static CGFloat height;
 static UIFont *font;
 static UIColor *backgroundColor;
 static UIColor *textColor;
 
-static NSMutableArray *referenceArray, *messageArray;
-static NSLock *theLock;
+static NSMutableArray *messageArray;
+static NSPointerArray *referenceArray;
 
 @implementation LGDropDownTipView
 
 + (void)initialize {
-    referenceArray = [NSMutableArray new];
+    referenceArray = [NSPointerArray weakObjectsPointerArray];
     messageArray = [NSMutableArray new];
-    theLock = [NSLock new];
-    [[self class] reset];
+    [self reset];
 }
 
 + (void)showMessage:(NSString *)message referenceView:(UIView *)view {
     
     if (!view || !view.superview) return;
     
-    [theLock lock];
     NSInteger index = [referenceArray indexOfObject:view];
     if (index == NSNotFound) {
         [referenceArray addObject:view];
         NSMutableArray *messages = [[NSMutableArray alloc] initWithObjects:message, nil];
         [messageArray addObject:messages];
-        [theLock unlock];
         [[self class] showMessages:messages onLabel:nil referenceView:view];
     } else {
         NSMutableArray *messages = messageArray[index];
         if (![message isEqualToString:[messages lastObject]]) {
             [messages addObject:message];
         }
-        [theLock unlock];
     }
 }
 
@@ -58,7 +55,6 @@ static NSLock *theLock;
     // initialize label
     if (label == nil) {
         label = [[UILabel alloc] initWithFrame:frame];
-        label.text = [messages firstObject];
         label.textAlignment = NSTextAlignmentCenter;
         label.font = font;
         label.textColor = textColor;
@@ -67,6 +63,8 @@ static NSLock *theLock;
         
         [superView insertSubview:label belowSubview:view];
     }
+    
+    label.text = [messages firstObject];
     
     // animate
     CGRect frame0 = frame;
@@ -87,11 +85,9 @@ static NSLock *theLock;
                                               [messages removeObjectAtIndex:0];
                                               if (messages.count == 0) {
                                                   [label removeFromSuperview];
-                                                  [theLock lock];
                                                   NSInteger index = [messageArray indexOfObject:messages];
                                                   [messageArray removeObjectAtIndex:index];
                                                   [referenceArray removeObjectAtIndex:index];
-                                                  [theLock unlock];
                                               } else {
                                                   [[self class] showMessages:messages onLabel:label referenceView:view];
                                               }

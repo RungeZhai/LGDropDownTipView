@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		199AA5D11BAACF0100FF329F /* NSPointerArray+AbstractionHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 199AA5D01BAACF0100FF329F /* NSPointerArray+AbstractionHelpers.m */; };
 		19B1A4121B74C2CD0052CE2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B1A4111B74C2CD0052CE2A /* main.m */; };
 		19B1A4151B74C2CD0052CE2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B1A4141B74C2CD0052CE2A /* AppDelegate.m */; };
 		19B1A4181B74C2CD0052CE2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B1A4171B74C2CD0052CE2A /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		199AA5CF1BAACF0100FF329F /* NSPointerArray+AbstractionHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPointerArray+AbstractionHelpers.h"; sourceTree = "<group>"; };
+		199AA5D01BAACF0100FF329F /* NSPointerArray+AbstractionHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPointerArray+AbstractionHelpers.m"; sourceTree = "<group>"; };
 		19B1A40C1B74C2CD0052CE2A /* LGDropDownTipView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGDropDownTipView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B1A4101B74C2CD0052CE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19B1A4111B74C2CD0052CE2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -126,6 +129,8 @@
 		19B1A4351B74C34A0052CE2A /* LGDropDownTipView */ = {
 			isa = PBXGroup;
 			children = (
+				199AA5CF1BAACF0100FF329F /* NSPointerArray+AbstractionHelpers.h */,
+				199AA5D01BAACF0100FF329F /* NSPointerArray+AbstractionHelpers.m */,
 				19B1A4381B74C39F0052CE2A /* LGDropDownTipView.h */,
 				19B1A4361B74C3920052CE2A /* LGDropDownTipView.m */,
 			);
@@ -235,6 +240,7 @@
 				19B1A4371B74C3920052CE2A /* LGDropDownTipView.m in Sources */,
 				19B1A4181B74C2CD0052CE2A /* ViewController.m in Sources */,
 				19B1A4151B74C2CD0052CE2A /* AppDelegate.m in Sources */,
+				199AA5D11BAACF0100FF329F /* NSPointerArray+AbstractionHelpers.m in Sources */,
 				19B1A4121B74C2CD0052CE2A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
