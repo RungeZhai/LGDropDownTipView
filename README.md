@@ -1,5 +1,5 @@
 # LGDropDownTipView
-A drop-down tip view like Weibo.
+A drop-down tip view like Weibo & 雪球.
 
 ### Demo
 
@@ -8,11 +8,13 @@ A drop-down tip view like Weibo.
 ### Usage
 
 Interface:
-```
+```objective-c
 + (void)showMessage:(NSString *)message referenceView:(UIView *)view;
 ```
 
 Say you want to show "Random Message" from navigation bar:
-```
+```objective-c
 [LGDropDownTipView showMessage:@"Random Message" referenceView:self.navigationController.navigationBar];
 ```
+
+If the message you want to show is the same with the message being shown, the request will be ignored. Otherwise, the showing request will be queued and shown one after another. You can show messages to multiple views at the same time.
